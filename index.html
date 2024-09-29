@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jq</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+   
+   <section class="jq">
+     <div class="container">
+       <!-- ex 1 --> <br>
+       <p class="c_p">Click the text below to hide/show</p>
+       <a href="#" class="a1">Click to hide me too</a> <hr>
+
+       <!-- ex 2 --> <br>
+       <p class="c_p">Click the text below to toggle</p>
+       <button class="btn bg-dark text-primary b1">Button</button>
+       <a href="#" class="a2">Click to hide me too</a> <hr>
+
+       <!-- ex 3 --> <br>
+       <p class="c_p">Click the text below to animate</p>
+       <button id="b2">&raquo; Run</button>
+       <div id="d1">Hello!</div> <hr>
+
+
+       <!-- ex 4 --> <br>
+       <p class="c_p">Remove from the queue all items that have not yet been run</p>
+       <button id="b3">Start</button>
+       <button id="b4">Stop</button>
+       <div class="d2"></div> <hr>
+
+       <!-- ex 5 --> <br>
+       <p class="c_p">Set a timer to delay execution of subsequent items in the queue</p>
+       <p><button class="b5">Run</button></p>
+       <div class="d3"></div>
+       <div class="d4"></div> <hr>
+
+       <!-- ex 6 --> <br>
+       <div class="pos">
+         <p class="c_p">Execute the next function on the queue for the matched elements</p>
+         <button class="b6">Start</button>
+         <div class="d5"></div> 
+       </div> <hr>
+
+       <!-- ex7 --> <br>
+      <div class="co">
+       <div class="d6"></div>
+       <p class="c_p"> complete all animations for the matched elements.</p>
+       <div id="d7">
+         <button id="go" class="b7">Go</button>
+         <br>
+         <button id="bstt" class="b b7">.stop( true,true )</button>
+         <button id="bcf" class="b b7">.clearQueue().finish()</button>
+         <br>
+         <button id="bstf" class="b b7">.stop( true, false )</button>
+         <button id="bcs" class="b b7">.clearQueue().stop()</button>
+         <br>
+         <button id="bsff" class="b b7">.stop( false, false )</button>
+         <button id="bs" class="b b7">.stop()</button>
+         <br>
+         <button id="bsft" class="b b7">.stop( false, true )</button>
+         <br>
+         <button id="bf" class="b">.finish()</button>
+       </div>
+      </div> <hr>
+
+
+      <!-- ex8 --> <br>
+      <input type="button" value="Run" class="i1">
+      <!-- <button class="b8">Toggle fx</button> -->
+      <div class="d8"></div> <hr>
+
+      <!-- ex9 --> <br>
+    <div class="io">
+      <button id="og" class="b9">Go</button>
+      <button id="top" class="b9">STOP!</button>
+      <button id="back" class="b9">Back</button>
+      <div class="d9"></div> <hr>
+    </div>
+
+    <!-- ex10 --> <br>
+  <div class="sa">
+    <p class="p1">
+      Let it be known that the party of the first part
+      and the party of the second part are henceforth
+      and hereto directed to assess the allegations
+      for factual correctness... (<a href="#" class="a2">click!</a>)
+      <div id="d10"><span class="spa">RESTRICTED!</span></div>
+    </p>
+  </div> <hr>
+
+
+  <!-- ex11 --> <br>
+  <button id="btn1">fade out</button>
+  <button id="btn2">show</button>
+   
+  <div id="log"></div>
+   
+  <div id="box1" class="box">linear</div>
+  <div id="box2" class="box">swing</div> <hr>
+  
+  <!-- ex12 --> <br>
+  <div class="havi">
+    <p class="pop">And this is the library that John built...</p>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+  </div> <hr>
+
+
+  <!-- ex13 --> <br>
+  <button class="b10">fadeToggle p1</button>
+  <p class="pup">This paragraph has a slow, linear fade.</p>
+  <hr>
+
+  <!-- ex14 --> <br>
+  <button class="pao">Click me!</button>
+  <div class="d11"></div>
+  <div class="d11"></div>
+  <div class="d11"></div>
+  <hr>
+
+  <!-- ex15 --> <br>
+  <button class="b12">Toggle</button>
+  <p class="shao">
+    This is the paragraph to end all paragraphs.  You
+    should feel <em>lucky</em> to have seen such a paragraph in
+    your life.  Congratulations!
+  </p> <hr>
+
+  <!-- ex16 --> <br>
+  <button class="lao">Click me!</button>
+  <div class="d12"></div>
+  <div class="d12"></div>
+  <div class="d12"></div>
+  <div class="d12"></div>
+  <div class="d12"></div> <hr>
+
+  <!-- ex17 --> <br>
+  <button class="btn btn-info b13">after</button>
+  <div class="box23">
+    <p class="mb-0">MD.SOURAV</p>
+  </div> <hr>
+
+  <!-- ex18 --> <br>
+  <button class="btn btn-info b14">before </button>
+  <div class="box24">
+    <p class="mb-0">MD.SOURAV</p>
+  </div> <hr>
+
+  <!-- ex19 --> <br>
+  <button class="btn btn-info b15">find name</button>
+  <div class="box22">
+    <p class="mb-0">Name</p>
+    <p class="mb-0">Roll</p>
+    <p class="mb-0">Name</p>
+  </div> <hr>
+
+  <!-- ex20 --> <br>
+  <button class="btn btn-warning b16">font size</button>
+  <button class="btn btn-warning b17">font weight</button>
+  <button class="btn btn-warning b18">font family</button>
+  <button class="btn btn-warning b19">color</button>
+  <div class="box20">
+    <p>MD Yeasin</p>
+  </div> <hr>
+
+  <!-- ex21 --> <br>
+    <h3 class="mb-0">slide up</h3>
+  <div class="box19">
+    <p class="mb-0 bg-success">Lorem, ipsum dolor.</p>
+    <p class="mb-0 bg-success">Lorem, ipsum dolor.</p>
+    <p class="mb-0 bg-success">Lorem, ipsum dolor.</p>
+  </div> <hr>
+
+  <!-- ex22 --> <br>
+  <button class="btn btn-danger b20">right</button>
+  <button class="btn btn-danger b21">left</button>
+  <div class="box18"></div> <hr>
+  
+  <!-- ex23 --> <br>
+  <button class="btn btn-warning b22">dubble click</button>
+  <div class="box25"></div> <hr>
+
+  <!-- ex24 --> <br>
+  <button class="btn btn-warning b23">color change</button>
+  <div class="box16">
+    <p>Color</p>
+  </div> <hr>
+
+  <!-- ex25 --> <br>
+  <button class="btn btn-warning b24">text end</button>
+  <div class="box15 bg-success">
+    <p class="mb-0 text-white">End</p>
+  </div> <hr>
+
+  <!-- ex26 --> <br>
+  <button class="btn btn-warning b25">square</button>
+  <div class="box14"></div> <hr>
+
+  <!-- ex27 --> <br>
+  <button class="btn btn-warning b26">circle</button>
+  <div class="box13"></div> <hr>
+
+  <!-- ex28 --> <br>
+  <button class="btn btn-warning b27">change color</button>
+  <div class="box12"></div> <hr>
+
+  <!-- ex29 --> <br>
+  <button class="btn btn-warning b28">under line</button>
+  <div class="box11">
+    <p class="text-dark">Underline</p>
+  </div> <hr>
+
+  <!-- ex30 --> <br>
+  <button class="btn btn-warning b29">border</button>
+  <div class="box10"></div> <hr>
+
+  <!--ex31--> <br>
+
+    <h2 class="mm6">remove title</h2>
+    <button class="bg-warning b30">Change title</button>
+    <input type="text" title="hello there">
+    <div id="logi"></div> <hr>
+
+    <!-- ex32 --> <br>
+    <h2>Remove class</h2>
+    <p class="bluee under pp3">Hello</p>
+      <p class="bluee under highlight2 pp3">and</p>
+      <p class="bluee under pp3">then</p>
+      <p class="bluee under pp3">Goodbye</p> <hr>
+
+
+    <!-- ex33 --> <br>
+    <h2>has class</h2>
+
+    <p class="p5">This paragraph is black and is the first paragraph.</p>
+    <p class="selected">This paragraph is red and is the second paragraph.</p>
+    <div id="result1">First paragraph has selected class: </div>
+    <div id="result2">Second paragraph has selected class: </div>
+    <div id="result3">At least one paragraph has selected class: </div> <hr>
+
+    <!-- ex34 --> <br>
+    <h2>add class</h2>
+    <p class="pp4">Hello</p>
+    <p class="pp4">and</p>
+    <p class="pp4">Goodbye</p> <hr>
+
+    <!-- ex35 --> <br>
+    <span  id="result" class="spcss">&nbsp;</span>
+    <div style="background-color:blue;" class="dcss"></div>
+    <div style="background-color:rgb(15,99,30);" class="dcss"></div>
+    <div style="background-color:#123456;" class="dcss"></div>
+    <div style="background-color:#f11;" class="dcss"></div> <hr>
+
+    <!-- ex36 --> <br>
+    <p id="result" class="pcss">&nbsp;</p>
+    <div id="box1"  class="dbss">1</div>
+    <div id="box2" class="dbss">2</div>
+    <div id="box3" class="dbss">3</div>
+    <div id="box4" class="dbss">4</div> <hr>
+
+    <!-- ex37 --> <br>
+    <h2 class="mm2">height</h2>
+    <div class="dihi"></div>
+    <div class="dihi"></div>
+    <div class="dihi"></div>
+    <div class="dihi"></div>
+    <div class="dihi"></div> <hr>
+
+    <!-- ex38 --> <br>
+    <h2 class="mm3">inner height</h2>
+    <div class="dinhi">div</div> <hr>
+
+    <!-- ex39 --> <br>
+    <h2 class="mm4">inner width</h2>
+    <div class="dinwid">div</div> <hr>
+
+    <!-- ex40 --> <br>
+    <h2 class="mm5">position</h2>
+    <div class="dp">
+      <p class="p2">Hello</p>
+    </div>
+    <p class="p3"></p> <hr>
+
+    <!-- ex41 --> <br>
+    <h2 class="mm5">scroll left</h2>
+    <div class="demo"><h1>lalala</h1><p class="pscr">Hello</p></div> <hr>
+
+    <!-- ex42 --> <br>
+    <h2 class="mm5">outer height</h2>
+    <div class="dohi">demo</div> <hr>
+
+    <!-- ex43 --> <br>
+    <h2 class="mm5">dblclick event</h2>
+    <div class="ddbl"></div>
+    <span>Double click the block</span> <hr>
+
+    <!-- ex44 --> <br>
+    <h2 class="mm5">mouseover event</h2>
+
+    <div class="out overout mo">
+      <span class="spmv">move your mouse</span>
+      <div class="in mv">
+      </div>
+    </div>
+     
+    <div class="out enterleave mov">
+      <span class="spmv">move your mouse</span>
+      <div class="in mv">
+      </div>
+    </div> <hr>
+
+    <!-- ex45 --> <br>
+    <h2 class="mm6">html</h2>
+
+
+    <p class="pht">
+      <b>Click</b> to change the <span id="tag">html</span>
+    </p> <hr>
+
+    <!-- ex46 --> <br>
+    <p><input type="text" class="in1"> <span class="spa1">focus fire</span></p>
+    <p><input type="password" class="in1"> <span class="spa1">focus fire</span></p> <hr>
+
+    <!-- ex47 --> <br>
+    <p class="p10"><input type="text" class="in2"> <span class="spa2">focusin fire</span></p>
+    <p><input type="password" class="in2"> <span class="spa2">focusin fire</span></p>
+     
+     <hr>
+
+
+     <!-- ex48 --> <br>
+     <div class="inputs in3">
+       <p class="p11">
+         <input type="text"><br>
+         <input type="text">
+       </p>
+       <p class="p11">
+         <input type="password">
+       </p>
+     </div>
+     <div id="focus-count">focusout fire</div>
+     <div id="blur-count">blur fire</div>
+      
+     <hr>
+
+
+  <!-- 49 --> <br>
+  <p class="p12">Click and drag the mouse to select text in the inputs.</p>
+   <input type="text" value="Some text" class="in4">
+   <input type="text" value="to test on" class="in4">
+   <div class="d45"></div>
+    <hr>
+
+    <!-- ex50 --> <br>
+    <p class="p13">Type 'correct' to validate.</p>
+    <form action="javascript:alert( 'success!' );" class="f56">
+      <div class="d46">
+        <input type="text" class="in4">
+        <input type="submit" class="in4">
+      </div>
+    </form>
+    <span class="spa7"></span>
+    <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+   </section>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

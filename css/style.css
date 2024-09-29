@@ -1,0 +1,410 @@
+
+.c_p{
+    margin: 0;
+    font-size: 35px;
+    color: red;
+}
+#d1{
+    background-color: #bca;
+    width: 100px;
+    border: 1px solid green;
+  }
+
+  .d2{
+      margin: 3px;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      left: 0px;
+      top: 85%;
+      background: green;
+      display: none;
+    }
+    .d2.newcolor {
+      background: blue;
+    }
+.d3, .d4{
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        float: left;
+      }
+      .d3 {
+        background-color: #3f3;
+        left: 0;
+      }
+      .d4 {
+        background-color: #33f;
+        left: 80px;
+      }
+.pos{
+        position: relative;
+      }
+      .d5{
+          margin: 3px;
+          width: 50px;
+          position: absolute;
+          height: 50px;
+          left: 10px;
+          bottom: -50px;
+          background-color: yellow;
+        }
+        .d5.red{
+          background-color: red;
+        }
+
+      .co{
+        position: relative;
+      }
+      .d6 {
+          position: absolute;
+          top: 50px;
+          left: 10px;
+          width: 15px;
+          height: 15px;
+          background: black;
+        }
+        #d7 {
+          height: 244px;
+          font-size: 70%;
+          border-left: 2px dashed red;
+          border-bottom: 2px dashed green;
+          border-right: 2px dashed blue;
+        }
+        .b7{
+          width: 12em;
+          display: block;
+          text-align: left;
+          margin: 0 auto;
+        }*/
+.d8{
+            width: 50px;
+            height: 30px;
+            margin: 5px;
+            float: left;
+            background: green;
+          }
+
+
+          .io{
+            position: relative;
+          }
+          .d9{
+              position: absolute;
+              background-color: #abc;
+              left: 0px;
+              top: 30px;
+              width: 60px;
+              height: 60px;
+              margin: 5px;
+            }
+
+            .sa{
+                position: relative;
+            }
+            .p1 {
+                bottom: 0;
+                left: 0;
+                width: 400px;
+                height: 90px;
+              }
+              #d10 {
+                position: absolute;
+                width: 400px;
+                height: 105px;
+                font-size: 36px;
+                text-align: center;
+                color: yellow;
+                background: red;
+                padding-top: 25px;
+                top: 0;
+                left: 0;
+                display: none;
+              }
+              .s2{
+                display: none;
+              }
+
+               .box {
+                   float: left;
+                   margin: 5px 10px 5px 0;
+                 }
+                 .box {
+                   height: 80px;
+                   width: 80px;
+                   background: #090;
+                 }
+                 #log {
+                   clear: left;
+                 }
+
+               .havi{
+                 position: relative;
+               }
+               .pop {
+                   width: 80px;
+                   margin: 0;
+                   padding: 5px;
+                 }
+                 #one, #two, #three{
+                   width: 40px;
+                   height: 40px;
+                   position: absolute;
+                 }
+                 #one {
+                   top: 65px;
+                   left: 0;
+                   background: yellow;
+                 }
+                 #two {
+                   top: 85px;
+                   left: 20px;
+                   background: red;
+                 }
+                 #three {
+                   top: 105px;
+                   left:40px;
+                   background:green;
+                 }
+
+                 .d11{
+                     background: #de9a44;
+                     margin: 3px;
+                     width: 80px;
+                     height: 40px;
+                     display: none;
+                     float: left;
+                   }
+              .shao{
+                  width: 400px;
+                }
+
+                .d12{
+                    background: #3d9a44;
+                    margin: 3px;
+                    width: 80px;
+                    height: 40px;
+                    float: left;
+                  }
+
+                  .box19 p{
+                      margin: 6px 0px;
+                      cursor: pointer;
+                  }
+
+                  .box1, .box2, .box3 , .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box12, .box13, .box14, .box15, .box17, .box18, .box25{
+                      margin: 0 auto;
+                      width: 150px;
+                      height: 100px;
+                      display: none;
+                      background-color: yellow;
+                      border-radius: 5px;
+                  }
+                  .box2, .box3, .box5, .box6, .box7, .box9, .box10, .box12, .box13, .box14, .box15, .box17, .box18, .box25{
+                      display: block;
+                  }
+
+                  .box14{
+    border-radius: 50%;
+}
+
+.dcss {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    float: left;
+  }
+  .dbss{
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    float: left;
+  }
+  #box1 {
+    width: 50px;
+    color: yellow;
+    background-color: blue;
+  }
+  #box2 {
+    width: 80px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(15, 99, 30);
+  }
+  #box3 {
+    width: 40px;
+    color: #fcc;
+    background-color: #123456;
+  }
+  #box4 {
+    width: 70px;
+    background-color: #f11;
+  }
+
+  .dihi{
+    width: 50px;
+    height: 70px;
+    float: left;
+    margin: 5px;
+    background: rgb(255,140,0);
+    cursor: pointer;
+  }
+    .dinhi {
+    width: 60px;
+    padding: 10px;
+    height: 70px;
+    float: left;
+    margin: 5px;
+    background: red;
+    cursor: pointer;
+  }
+  .mod {
+    background: blue;
+    cursor: default;
+  }
+  .dinwid {
+  width: 60px;
+  padding: 10px;
+  height: 50px;
+  float: left;
+  margin: 5px;
+  background: red;
+  cursor: pointer;
+  }
+.dp {
+    padding: 15px;
+  }
+  .p2 {
+    margin-left: 10px;
+  }
+.mm1{
+    margin:34px ;
+  }
+  .mm2{
+    margin:67px ;
+  }
+  .mm3{
+    margin:84px ;
+  }
+  .mm4{
+    margin:88px ;
+  }
+  .mm5{
+    margin: 10px;
+  }
+  .mm6{
+    margin: 128px;
+  }
+
+
+  .demo {
+    background: #ccc none repeat scroll 0 0;
+    border: 3px solid #666;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    width: 200px;
+    height: 100px;
+    overflow: auto;
+  }
+  .pscr {
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid #666;
+    width: 1000px;
+    height: 1000px;
+  }
+
+  .dohi {
+    width: 50px;
+    padding: 10px;
+    height: 60px;
+    float: left;
+    margin: 5px;
+    background: red;
+    cursor: pointer;
+  }
+
+   .mod1 {
+     background: blue;
+     cursor: default;
+   }
+
+   .ddbl {
+     background: blue;
+     color: white;
+     height: 100px;
+     width: 150px;
+  }
+   .ddbl.dbl {
+     background: yellow;
+     color: black;
+   }
+      div.out {
+       width: 40%;
+       height: 120px;
+       margin: 0 15px;
+       background-color: #d6edfc;
+       float: left;
+     }
+     div.in {
+       width: 60%;
+       height: 60%;
+       background-color: #fc0;
+       margin: 10px auto;
+     }
+     p {
+       line-height: 1em;
+       margin: 0;
+       padding: 0;
+     }
+
+
+
+     .pht {
+       margin: 8px;
+       font-size: 20px;
+       color: blue;
+       cursor: pointer;
+     }
+     b {
+       text-decoration: underline;
+     }
+   .bht {
+       cursor: pointer;
+     }
+
+     .spa1{
+         display: none;
+       }
+            .spa2{
+         display: none;
+       }
+
+
+
+       .in3{
+           float: left;
+           margin-right: 1em;
+         }
+         .in3 p {
+           margin-top: 0;
+         }
+
+         .p12 {
+            color: blue;
+          }
+          .d45 {
+            color: red;
+          }
+
+
+          .p13 {
+             margin: 0;
+             color: blue;
+           }
+          .d46, p13 {
+             margin-left: 10px;
+           }
+           .spa7 {
+             color: red;
+           }
